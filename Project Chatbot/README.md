@@ -30,7 +30,8 @@ Image Handling: Pillow (PIL)
 
 ### 📸 Screenshots / Demo
 #### Dark Theme :
-![Dark Theme](Project%20Chatbot/Demo%20Images/demo chatbot black theme.png)
+![Dark Theme](Project%20Chatbot/Demo%20Images/demo%20chatbot%20black%20theme.png)
+
 
 (Replace with your own screenshots of the running app)
 
