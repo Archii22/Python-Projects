@@ -29,7 +29,8 @@ Environment Management: python-dotenv
 Image Handling: Pillow (PIL)
 
 ### 📸 Screenshots / Demo
-##### will stick it 
+#### Dark Theme :
+![Dark Theme](Project%20Chatbot/Demo%20Images/demo chatbot black theme.png)
 
 (Replace with your own screenshots of the running app)
 
