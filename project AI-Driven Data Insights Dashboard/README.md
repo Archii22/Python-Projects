@@ -42,11 +42,9 @@ This project includes automated tests using **pytest**, including:
 
 ## Run Tests
 Make sure your virtual environment is activated, then run:
+#### pytest
 
-```bash
-pytest
-
-Command to run:
+### Command to run:
 pytest tests/test_insights_nlq.py
 
 ---
