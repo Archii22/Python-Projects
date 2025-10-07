@@ -1,61 +1,71 @@
-🧠 AI-Driven Data Insights Dashboard
+# 📊 AI-Driven Data Insights Dashboard
 
-An intelligent data analysis dashboard built with Streamlit, designed to automatically detect trends, anomalies, and generate AI-powered narrative insights from any uploaded dataset.
-It’s your personal data analyst — powered by Python and AI.
+An **interactive Streamlit application** that empowers users to **analyze uploaded datasets** (CSV or Excel), detect **trends**, identify **anomalies**, rank insights by **impact × confidence**, and export results in multiple formats — including JSON, Markdown, and PDF.
 
-✨ Features
+---
 
-✅ Automatic Trend Detection – Identifies increasing or decreasing patterns in numerical data.
-✅ Anomaly Detection – Spots unusual data points or outliers in your dataset.
-✅ Ranked Insights – Ranks insights by impact × confidence to highlight what matters most.
-✅ AI-Powered Summaries – Generates narrative explanations for patterns and anomalies.
-✅ Interactive Visuals – Explore your data using Plotly charts and Streamlit tabs.
-✅ Fast & Cached – Optimized with @st.cache_data to run analysis under 10 seconds.
-✅ Exportable Reports – Convert results to downloadable PDF summaries.
+# ✨ Key Features
 
-🧰 Tech Stack
-Category	Tools Used
-Frontend/UI	Streamlit
-Data Handling	Pandas, NumPy
-Visualization	Plotly Express
-Machine Learning	scikit-learn
-AI/LLM	OpenAI API
-Database (optional)	DuckDB
-Language	Python 3.11+
-⚙️ Setup Instructions
-1️⃣ Clone the Repository
+## ✅ 1. Upload & Preview Data
+- Upload **CSV or Excel** files (UTF-8 compatible).  
+- Automatic **detection of data structure and types**.  
+- Display **data summary, columns, and sample rows**.
+
+## ✅ 2. AI-Powered Insights
+- Detects **trends**: increasing, decreasing, or stable.  
+- Identifies **anomalies** using statistical methods.  
+- **Ranks insights** based on **impact × confidence**.  
+- Generates **AI-driven narrative summaries** for quick understanding.
+
+## ✅ 3. Interactive Visualizations
+- Built with **Plotly** for dynamic trend and anomaly charts.  
+- Optimized for datasets up to **1000 rows** for faster rendering.  
+
+## ✅ 4. Natural Language Queries (NLQ)
+- *(Coming Soon)* Ask questions like:  
+  > “Which product category grew fastest?”  
+
+## ✅ 5. Export Options
+- Download results as **CSV, JSON, Markdown, or PDF**.  
+- Auto-generate **reports with summaries and charts**.  
+
+## ✅ 6. Performance & Safety
+- Uses `@st.cache_data` for **caching and faster performance**.  
+- Restricts **unsafe SQL queries** (only `SELECT` allowed).  
+- Gracefully handles **missing or invalid data**.  
+- Optimized to run within **~10 seconds** for medium datasets.
+
+---
+
+# ⚙️ Setup Instructions
+
+## 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/Archii22/Python-Projects.git
 cd "Python-Projects/project AI-Driven Data Insights Dashboard"
 
-2️⃣ Create and Activate a Virtual Environment
-python -m venv venv
-venv\Scripts\activate     # For Windows
-# OR
-source venv/bin/activate  # For macOS/Linux
+---
 
-3️⃣ Install Dependencies
+#  Create and Activate a Virtual Environment
+
+## Windows
+python -m venv venv
+venv\Scripts\activate
+
+## macOS/Linux
+python -m venv venv
+source venv/bin/activate
+
+## Install Dependencies
 pip install -r requirements.txt
 
-4️⃣ Add Your API Key
-
-Create a file named .env in the project root and add:
-
+## Add Your OpenAI API Key
 OPENAI_API_KEY=your_api_key_here
 
-5️⃣ Run the App
+## Run the Application
 streamlit run app/streamlit_app.py
 
-
-Then open your browser at 👉 http://localhost:8501
-
-🧪 How It Works
-
-Upload any CSV dataset (UTF-8 format).
-
-The app automatically detects numeric columns.
-
-It finds trends, anomalies, and patterns.
-
-Insights are ranked by importance (impact × confidence).
-
-AI generates a natural-language narrative summary.
+# 📸 Demo Screenshots
+### Data Upload & Preview
+### Insights & Ranking Tab
+### Full Dashboard in Action
