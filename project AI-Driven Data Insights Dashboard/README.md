@@ -39,8 +39,8 @@ An **interactive Streamlit application** that empowers users to **analyze upload
 
 # ⚙️ Setup Instructions
 
-## 1️⃣ Clone the Repository
-```bash
+## Clone the Repository
+
 git clone https://github.com/Archii22/Python-Projects.git
 cd "Python-Projects/project AI-Driven Data Insights Dashboard"
 
@@ -56,14 +56,22 @@ venv\Scripts\activate
 python -m venv venv
 source venv/bin/activate
 
+---
+
 ## Install Dependencies
 pip install -r requirements.txt
+
+---
 
 ## Add Your OpenAI API Key
 OPENAI_API_KEY=your_api_key_here
 
+---
+
 ## Run the Application
 streamlit run app/streamlit_app.py
+
+---
 
 # 📸 Demo Screenshots
 ### Data Upload & Preview
