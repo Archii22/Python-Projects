@@ -35,6 +35,20 @@ An **interactive Streamlit application** that empowers users to **analyze upload
 - Gracefully handles **missing or invalid data**.  
 - Optimized to run within **~10 seconds** for medium datasets.
 
+## ✅ 7. 🧪 Running Tests
+This project includes automated tests using **pytest**, including:
+
+- `test_insights_nlq.py` – tests the Natural Language Query (NLQ) functionality.
+
+## Run Tests
+Make sure your virtual environment is activated, then run:
+
+```bash
+pytest
+
+Command to run:
+pytest tests/test_insights_nlq.py
+
 ---
 
 # ⚙️ Setup Instructions
