@@ -86,9 +86,16 @@ streamlit run app/streamlit_app.py
 ---
 
 # 📸 Demo Screenshots
-### Data Upload & Preview
+### Full Dashboard Preview
 ![Before Upload Preview](Demo%20Images/upload%20preview.jpeg)
+### 📤 After Uploading Data
+![After Uploading](Demo%20Images/After%20uploading.jpeg)
+### 📊 Insights & Ranking Tab
+![Insights & Ranking Tab](Demo%20Images/Insight%20and%20Ranking%20tab.png)
+### 💬 NLQ Tab
+![NLQ Tab](Demo%20Images/NLQ%20Tab.jpeg)
+### 🔍 Explore Tab
+![Explore Tab](Demo%20Images/EXPLORE%20Tab.png)
+### 📦 Export Tab
+![Export Tab](Demo%20Images/EXPORT%20Tab.jpeg)
 
-### Insights & Ranking Tab
-### Full Dashboard in Action
-### 🖼️ App Preview
