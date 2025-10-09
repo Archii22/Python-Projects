@@ -87,5 +87,9 @@ streamlit run app/streamlit_app.py
 
 # 📸 Demo Screenshots
 ### Data Upload & Preview
+## 🖼️ App Preview
+
+![BEFORE UPLOAD PREVIEW](demo%20page/uploadpreview.jpeg)
+
 ### Insights & Ranking Tab
 ### Full Dashboard in Action
